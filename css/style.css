@@ -1,0 +1,110 @@
+ * {
+     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto',
+     'Helvetica Neue', Arial, sans-serif;
+ }
+ h6  {
+     margin: 1.4em;
+ }
+ #title-under {
+     display: block;
+     margin: 1.2em;
+     text-align: center;
+ }
+ #title h1 {
+    text-align: center;
+ }
+#main {
+    margin: 30px 2px;
+    padding: 20px;
+    border: 5px solid inherit;
+    border-radius: 5px;
+    background-color: #EEEEEE;
+    /* position: relative; */
+}
+#title {
+text-align: center;
+text-align: justify;
+opacity: .9;
+}
+#img-div {
+    border: 14px solid #FFFFFF;
+    margin: 0 auto 6px;
+    background-color: #FFFFFF;
+    
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 8px  auto;
+    
+}
+#img-caption {
+    color: black;
+    opacity: .5;
+    font-size: 1.4rem;
+    text-align: center;
+    text-align: justify;
+
+}
+#img-caption h6 {
+    text-align: center;
+}
+#tribute-info {
+    display: block;
+    margin: auto;
+    text-align: justify;
+ 
+
+}
+#tribute-info h2 {
+    width: 100%;
+    display: block;
+    margin: 50px 0;
+    text-align: center;
+    font-size: 1.3em;
+
+}
+/* #tribute-info ul {
+
+} */
+#tribute-info ul li {
+    margin: 18px;
+}
+/* figure {
+
+
+} */
+figure blockquote {
+    font-style: italic;
+    text-align: left;
+    margin: 0 auto 50px auto;
+  max-width: 545px;
+   text-align: left;
+}
+#cite {
+
+    text-align: left;
+
+    opacity: .8;
+}
+@media  (min-width: 0px) and (max-width: 550px) {
+    #tribute-info ul {
+        margin: 0 auto 50px auto;
+        text-align: center;
+        line-height: 1.6;
+    text-align: left;   
+}
+
+}
+@media screen and (min-width: 600px) {
+    #tribute-info ul {
+      display: block;
+      margin: auto;
+        line-height: 1.6;
+width: 40%;
+
+      
+}
+
+}
